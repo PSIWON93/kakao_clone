@@ -52,6 +52,13 @@
   right: 20px;
   bottom: 80px;
   font-size: 20px;
+  color: #523737;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: color .3s, background .3s ease-in-out;
+  
+}
 
+.chat__btn:hover {
+  color: white;
+  background: #523737;
 }
